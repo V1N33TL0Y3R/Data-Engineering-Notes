@@ -38,6 +38,25 @@ Similarly, data is the new oil !!
 
 Companies ingest data and it needs to be processed and stored in various ways. To handle the data we need data pipelines that efficiently automates the flow from one station to the next, so that data scientists can use up-to-date, accurate info. 
 
+Ex. A music company collects data of users through their mobile app, desktop and web app.(3 pipelines) -> the data is collected into [ DataLake ] -> now we can have multiple DBs such as employees, customer, playlists, tracks, albums, artists (6 pipelines) -> furthermore, say employees are from US,UK,IN (3 pipelines) -> albums can have multiple pictures (2 pipelines)....so on
+
+<img width="647" alt="image" src="https://github.com/Ony-mous/Data-Engineering-/assets/30760868/b550485f-899d-42fc-aea8-a92d05e71191">
+
+(Source: DataCamp)
+
+Functions of a Data Pipeline is to automate : Extracting, Transforming, Validating, Combining, Loading data.
+
+Difference between ETL and Data pipeline -> ETL is a popular framework for designing data pipelines, data is processed before it is stored. One may or may not follow ETL ex. data is given directly after extracting to visualization tools rather than transforming.
+
+
+Requirement -> need to give recommended songs list to our user 
+
+Data Flow ->  
+1. extract songs our user listned the most over the last 2-3 months. <br>
+2. Find other users who listned to same song.<br>
+3. Extract songs from these users listning history -"similar profile"<br>
+4. extract songs from the above steps which belong to same genre as the one which our user listnes to.<br>
+5. These songs will be our "recommendation". <br>
 
 
            
