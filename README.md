@@ -42,7 +42,6 @@ Ex. A music company collects data of users through their mobile app, desktop and
 
 <img width="647" alt="image" src="https://github.com/Ony-mous/Data-Engineering-/assets/30760868/b550485f-899d-42fc-aea8-a92d05e71191">
 
-(Source: DataCamp)
 
 Functions of a Data Pipeline is to automate : Extracting, Transforming, Validating, Combining, Loading data.
 
