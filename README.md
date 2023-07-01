@@ -58,4 +58,33 @@ Data Flow ->
 5. These songs will be our "recommendation". <br>
 
 
+## Storing Data
+
+### Data Structures
+#### Structured data - 
+1. structured data is easy to search and organize
+2. consistent model, rows and columns
+3. defined types
+4. can be grouped to form relations
+5. stored in relational databases
+6. around 20% data is structured.
+
+#### Semi structured data - 
+1. resembles structured data but allows more freedom
+2. easy to organize and allows more flexibility
+3. also have some cons.
+4. stored in NoSQL DBs and usually leverages JSON,XML or YAML file formats
+
+#### Un-structured data - 
+1. does not follow a model and can't be contained in a row and column format.
+2. Difficult to search and organize.
+3. It's usually text, images,videos etc.
+4. Usually stored in datalakes.
+
+### SQL Databases
+1.Structured Query Language 
+2.Industry standard for RDBMS
+3.Allows you to access many records at once and group, filter, aggregate them.
+4.Used by both Data Engineer and Scientist
+
            
