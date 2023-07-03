@@ -1,4 +1,4 @@
-# Data-Engineering
+# Data-Engineering intro
 Data Engineering notes
 
 ## What is the Data Flow?
@@ -70,21 +70,25 @@ Data Flow ->
 6. around 20% data is structured.
 
 #### Semi structured data - 
-1. resembles structured data but allows more freedom
-2. easy to organize and allows more flexibility
-3. also have some cons.
-4. stored in NoSQL DBs and usually leverages JSON,XML or YAML file formats
+1. resembles structured data but allows more freedom </br>
+2. easy to organize and allows more flexibility </br>
+3. also have some cons.</br>
+4. stored in NoSQL DBs and usually leverages JSON,XML or YAML file formats </br>
 
 #### Un-structured data - 
-1. does not follow a model and can't be contained in a row and column format.
-2. Difficult to search and organize.
-3. It's usually text, images,videos etc.
-4. Usually stored in datalakes.
+1. does not follow a model and can't be contained in a row and column format.</br>
+2. Difficult to search and organize.</br>
+3. It's usually text, images,videos etc.</br>
+4. Usually stored in datalakes.</br>
 
 ### SQL Databases
-1.Structured Query Language 
-2.Industry standard for RDBMS
-3.Allows you to access many records at once and group, filter, aggregate them.
-4.Used by both Data Engineer and Scientist
+1.Structured Query Language </br>
+2.Industry standard for RDBMS </br>
+3.Allows you to access many records at once and group, filter, aggregate them.</br>
+4.Used by both Data Engineer and Scientist. </br>
+
+#### Difference between datalakes and datawarehouses
+<img width="774" alt="image" src="https://github.com/Ony-mous/Data-Engineering-/assets/30760868/f7e5d4b3-6678-43f4-b77e-fe34a875065d">
+
 
            
